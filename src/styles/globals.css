@@ -1,0 +1,85 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+  gap: 20px;
+
+}
+
+.upload_file {
+  width: 200px;
+  height: 40px;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 8px;
+}
+
+.files ul li {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 15px;
+}
+
+.btn_delete_file {
+  background-color: rgb(250, 121, 121);
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+.btn_send_files { 
+  background-color: rgb(2, 143, 9);
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  padding: 12px 16px;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+}
+
+.btn_send_files:hover {
+  background-color: rgb(26, 184, 33);
+}
+
+
+
+.header {
+  position: absolute;
+  top: 30px;
+  /* right: 30px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 0 100px;
+  flex-wrap: wrap;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+
+
+.btn_sign_in {
+  background-color: rgb(30, 105, 167);
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  padding: 12px 30px;
+  cursor: pointer;
+  transition: ease-in-out 0.2s;
+  font-weight: 700;
+  font-size: 16px;
+}
